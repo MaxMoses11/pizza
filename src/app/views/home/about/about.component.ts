@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit, AfterViewInit {
   private popupComponent!: PopupComponent;
 
   ngAfterViewInit() {
-    this.popupComponent.open();
+    // this.popupComponent.open();
   }
 
 }
