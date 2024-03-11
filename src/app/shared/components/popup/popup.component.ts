@@ -14,7 +14,7 @@ export class PopupComponent {
   constructor(private modalService: NgbModal) {
   }
 
-  open():void {
+  open(): void {
     this.modalService.open(this.popup);
   }
 }
